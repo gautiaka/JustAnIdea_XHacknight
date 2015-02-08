@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock1" />
+    <Button
+        android:text="Click Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/details" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="162.3dp"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="ITEM DESCRIPTION GOES HERE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemdesc" />
+    <Button
+        android:text="Rent Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rentdetails" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rent"
+        android:text="Rent Now" />
+</LinearLayout>

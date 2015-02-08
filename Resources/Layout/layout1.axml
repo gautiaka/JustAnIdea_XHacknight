@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Just An Idea!"
+        android:textSize="30dp"
+        android:background="#006bff"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:padding="5dp" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="720px"
+        android:layout_height="620px"
+        android:id="@+id/banner" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uname"
+        android:hint="Enter User Name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upass"
+        android:hint="Enter Password" />
+    <Button
+        android:text="Click Here To Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login" />
+    <Button
+        android:text="Submit your Ad "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newad" />
+</LinearLayout>
